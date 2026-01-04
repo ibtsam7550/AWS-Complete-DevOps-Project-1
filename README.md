@@ -242,7 +242,7 @@ Each issue improved understanding of **AWS security, networking, and service int
 
 ## Architecture Diagram
 
-![AWS CI/CD Architecture](diagrams/architecture-diagram.png)
+![AWS CI/CD Architecture](Diagrams/architecture-diagram.png)
 
 ## Conclusion
 
