@@ -13,3 +13,12 @@ The architecture follows a **microservices approach**, not a monolithic design.
 
 ### High-Level Flow
 
+Developer → CodeCommit → CodeBuild → ECR → ECS (Test)
+                                ↓
+                          Manual Approval (SNS)
+                                ↓
+                          ECS (Production)
+                                ↓
+                       Application Load Balancer
+                                ↓
+                             Internet (DNS)
