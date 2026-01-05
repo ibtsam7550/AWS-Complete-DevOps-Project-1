@@ -231,6 +231,8 @@ Each issue improved understanding of **AWS security, networking, and service int
 
 ## Final Outcome
 
+![Pipeline Scrennshot](<Diagrams/Screenshot 2026-01-02 at 12.04.08 AM.png>)
+
 - Fully automated CI/CD pipeline
 - Test and Production environments
 - Manual approval before production
